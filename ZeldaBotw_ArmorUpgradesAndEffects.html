@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Armor Upgrades and Effects</title>
+	<title>Armor: Upgrades and Effects</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/v13-cloudy.20170503221830.css">
 	<style type="text/css">
 		body {
-			max-width: 900px;
+			-min-width: 90%;
+			max-width: 1300px;
 			margin: 1em auto;
 			padding: 0.5em;
 		}
@@ -18,19 +19,19 @@
 </head>
 <body>
 
-<h1>Armor Upgrades and Effects</h1>
+<h1>Armor: Upgrades and Effects</h1>
 <div class="ffaq">
 	<div class="ftoc">
 		<h3>Table of Contents</h3>
 		<ol>
-			<li><a href="#How to Read Upgrade Tables">How to Read Upgrade Tables</a></li>
-			<li><a href="#Standalone Armor Upgrades">Standalone Armor Upgrades</a></li>
+			<li><a href="#How to Read Armor Tables">How to Read Armor Tables</a></li>
+			<li><a href="#Standalone Armor">Standalone Armor</a></li>
 			<ol>
 				<li><a href="#Champion's Tunic">Champion's Tunic</a></li>
 				<li><a href="#Speed Boots">Speed Boots</a></li>
 				<li><a href="#Gemstone Headgear">Gemstone Headgear</a></li>
 			</ol>
-			<li><a href="#Armor Set Upgrades">Armor Set Upgrades</a></li>
+			<li><a href="#Armor Sets">Armor Sets</a></li>
 			<ol>
 				<li><a href="#Hylian">Hylian</a></li>
 				<li><a href="#Soldier">Soldier</a></li>
@@ -46,13 +47,14 @@
 				<li><a href="#Ancient">Ancient</a></li>
 				<li><a href="#Wild">Wild</a></li>
 			</ol>
-			<li><a href="#Amiibo Gear">Amiibo Gear</a></li>
+			<li><a href="#Non-Upgradeable Armor">Non-Upgradeable Armor</a></li>
+			<li><a href="#Amiibo Armor">Amiibo Armor</a></li>
 			<ol>
 				<li><a href="#Sheik's Mask">Sheik's Mask</a></li>
 				<li><a href="#Fierce Deity">Fierce Deity</a></li>
 				<li><a href="#Green Tunics">Green Tunics</a></li>
 			</ol>
-			<li><a href="#Non Upgradeable Armor">Non Upgradeable Armor</a></li>
+			<li><a href="#DLC Armor">DLC Armor</a></li>
 			<li><a href="#Effects">Effects</a></li>
 			<ol>
 				<li><a href="#Cold Resistance">Cold Resistance</a></li>
@@ -62,18 +64,20 @@
 				<li><a href="#Attack">Attack</a></li>
 				<li><a href="#Enemy Interaction">Enemy Interaction</a></li>
 			</ol>
-			<li><a href="#Questions">Questions</a></li>
+			<li><a href="#Future Updates">Future Updates</a></li>
 			<li><a href="#About">About</a></li>
 		</ol>
 	</div>
-	<h2>How to Read Upgrade Tables<br /><a id="How to Read Upgrade Tables"></a></h2>
+	<h2>How to Read Armor Tables<br /><a id="How to Read Armor Tables"></a></h2>
 	<ul>
-		<li><strong>Header #</strong> - defense rating of the armor in the corresponding upgrade level</li>
-		<li><strong>Bonus</strong> - for an individual piece of armor</li>
-		<li><strong>Set Bonus</strong> - wearing full set of all three pieces that are upgraded twice</li>
-		<li><strong>Special</strong> - additional ability (may not be displayed on the armor screen)</li>
-		<li><strong>[Dragon]</strong> - from which Dragon to source the parts for the corresponding armor piece (Head, Body, or Legs)</li>
+		<li><strong>Header #</strong> - defense rating of the armor in the corresponding upgrade level; below are the ingredients required to upgrade to that level</li>
+		<li><strong>Effect</strong> - effect when wearing an individual piece of armor</li>
+		<li><strong>Set Bonus</strong> - effect when wearing a full set of all three pieces that have been upgraded twice</li>
+		<li><strong>Special</strong> - additional effect (may not be displayed on the armor screen)</li>
+		<li><strong>[Enemy]</strong> - from which Enemy to source the parts for the corresponding armor piece (Head, Body, or Legs)</li>
 		<li><strong>Location</strong> - where to find the armor piece</li>
+		<li><strong>Buy</strong> - <i>coming later</i> - price to buy the armor piece, if sold in a shop (uses ¹ and ² if more than one shop)</li>
+		<li><strong>Sell</strong> - <i>coming later</i> -  price to sell the armor piece (increases with upgrade level)</li>
 	</ul>
 	<table class="ffaq">
 		<tbody>
@@ -83,28 +87,36 @@
 				<th>Lvl 2 Def</th>
 				<th>Lvl 3 Def</th>
 				<th>Lvl 4 Def</th>
-				<th>[Dragon]</th>
-				<th>Bonus</th>
+				<th>[Enemy]</th>
+				<th>Effect</th>
 				<th>Special</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Armor Head<br />Armor Body<br />Armor Legs </td>
-				<td rowspan="2"># Item 1</td>
-				<td># Item 1<br /># Item 2</td>
-				<td># Item 1<br /># Item 2</td>
-				<td># Item 1<br /># [Dragon] Part</td>
-				<td rowspan="2">Head<br />Body<br />Legs</td>
-				<td rowspan="2">Effect</td>
-				<td rowspan="2">Effect</td>
-				<td rowspan="2" rowspan="2">Place</td>
+				<td>Head Armor</td>
+				<td rowspan="3"># Item 1</td>
+				<th colspan="3">Set Bonus: Wear Full Set At Lvl 2+</th>
+				<td>Head Enemy</td>
+				<td rowspan="3">Effect</td>
+				<td rowspan="3">Effect</td>
+				<td rowspan="3">¹ Place 1<br />² Place 2<br />(Quest)<br />*note*</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Wear Full Set At Lvl 2+</th>
+				<td>Body Armor</td>
+				<td rowspan="2"># Item 1<br /># Item 2</td>
+				<td rowspan="2"># Item 1<br /># Item 2</td>
+				<td rowspan="2"># Item 1<br /># [Enemy] Part</td>
+				<td>Body Enemy</td>
+			</tr>
+			<tr>
+				<td>Legs Armor</td>
+				<td>Legs Enemy</td>
+			</tr>
 		</tbody>
 	</table>
-	<h2>Standalone Armor Upgrades<a id="Standalone Armor Upgrades"></a></h2>
+	<h2>Standalone Armor<a id="Standalone Armor"></a></h2>
 	<h3>Champion's Tunic<a id="Champion's Tunic"></a></h3>
+	<p>This armor piece cannot be sold.</p>
 	<table class="ffaq">
 		<tbody>
 			<tr>
@@ -123,7 +135,7 @@
 				<td>3 Silent Princess<br />2 Naydra's Horn</td>
 				<td>3 Silent Princess<br />2 Dinraal's Horn</td>
 				<td>See Enemy HP</td>
-				<td>Location</td>
+				<td>Impa at Kakariko Village<br />(Captured Memories)</td>
 			</tr>
 		</tbody>
 	</table>
@@ -136,8 +148,8 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>Effect</th>
+				<th colspan="2">Location</th>
 			</tr>
 			<tr>
 				<td>Sand Boots</td>
@@ -145,8 +157,9 @@
 				<td>10 Molduga Fin<br />10 Swift Carrot</td>
 				<td>3 Modulga Guts<br />15 Rushroom</td>
 				<td>5 Molduga Guts<br />15 Swift Violet</td>
-				<td>Sand Speed Up</td>
-				<td>Location</td>
+				<td>&#x1F463;&#xFE0F;&nbsp; Sand Speed Up</td>
+				<td>Bozai at Gerudo Town<br />(The Eigth Heroine)</td>
+				<td rowspan="4">Tarrey Town Granté's Shop<br />(From the Ground Up)<br />*must have already owned*</td>
 			</tr>
 			<tr>
 				<td>Snow Boots</td>
@@ -154,8 +167,8 @@
 				<td>5 Octo Balloon<br />10 Swift Carrot</td>
 				<td>5 Octorok Eyeball<br />15 Rushroom</td>
 				<td>2 Naydra's Scale<br />15 Swift Violet</td>
-				<td>Snow Speed Up</td>
-				<td>Location</td>
+				<td>&#x1F463;&#xFE0F;&nbsp; Snow Speed Up</td>
+				<td>Bozai at Gerudo Town<br />(The Forgotten Sword)</td>
 			</tr>
 		</tbody>
 	</table>
@@ -168,7 +181,7 @@
 				<th>12</th>
 				<th>20</th>
 				<th>28</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 				<th>Special </th>
 			</tr>
@@ -179,7 +192,7 @@
 				<td>20 Amber<br />3 Flint</td>
 				<td>30 Amber<br />3 Flint</td>
 				<td>&#8212;</td>
-				<td>Location</td>
+				<td>Gerudo Town Jewelry Shop</td>
 				<td>&#8212;</td>
 			</tr>
 			<tr>
@@ -188,17 +201,17 @@
 				<td>4 Diamond<br />3 Flint</td>
 				<td>6 Diamond<br />1 Star Fragment</td>
 				<td>10 Diamond<br />1 Star Fragment</td>
-				<td>Guardian Resist Up</td>
-				<td>Location</td>
-				<td rowspan="6">+20% Guardian/Ancient Damage</td>
+				<td>&#x1F300;&#xFE0F;&nbsp; Guardian Resist Up</td>
+				<td>¹ Chest Under Tu Ka'loh Shrine<br />² Gerudo Town Jewelry Shop</td>
+				<td rowspan="6">+20% Guardian<br />/Ancient Damage</td>
 			</tr>
 			<tr>
-				<th> 3</th>
+				<th>3</th>
 				<th>5</th>
 				<th>8</th>
 				<th>12</th>
 				<th>18</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
@@ -207,17 +220,16 @@
 				<td>4 Topaz<br />3 Flint</td>
 				<td>6 Topaz<br />1 Star Fragment </td>
 				<td>10 Topaz<br />1 Star Fragment</td>
-				<td>Shock Resistance</td>
-				<td>Location</td>
+				<td>&#x26A1;&#xFE0F;&nbsp; Shock Resistance</td>
+				<td rowspan="4">¹ Isha at Gerudo Town<br />(Tools of the Trade)<br />² Gerudo Town Jewelry Shop</td>
 			</tr>
 			<tr>
-				<th> 3</th>
+				<th>3</th>
 				<th>5</th>
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>Effect</th>
 			</tr>
 			<tr>
 				<td>Ruby Circlet</td>
@@ -225,8 +237,7 @@
 				<td>4 Ruby<br />3 Flint</td>
 				<td>6 Ruby<br />1 Star Fragment</td>
 				<td>10 Ruby<br />1 Star Fragment</td>
-				<td>Cold Resistance</td>
-				<td>Location</td>
+				<td>&#x2744;&#xFE0F;&nbsp; Cold Resistance</td>
 			</tr>
 			<tr>
 				<td>Sapphire Circlet</td>
@@ -234,8 +245,7 @@
 				<td>4 Sapphire<br />3 Flint</td>
 				<td>6 Sapphire<br />1 Star Fragment</td>
 				<td>10 Sapphire<br />1 Star Fragment</td>
-				<td>Heat Resistance</td>
-				<td>Location</td>
+				<td>&#x2600;&#xFE0F;&nbsp; Heat Resistance</td>
 			</tr>
 			<tr>
 				<td>Opal Earrings</td>
@@ -243,13 +253,13 @@
 				<td>8 Opal<br />3 Flint</td>
 				<td>16 Opal<br />3 Flint</td>
 				<td>20 Opal<br />3 Flint</td>
-				<td>Swim Speed Up</td>
-				<td>Location</td>
+				<td>&#x1F30A;&#xFE0F;&nbsp; Swim Speed Up</td>
+				<td>Gerudo Town Jewelry Shop</td>
 				<td>&#8212;</td>
 			</tr>
 		</tbody>
 	</table>
-	<h2>Armor Set Upgrades<a id="Armor Set Upgrades"></a></h2>
+	<h2>Armor Sets<a id="Armor Sets"></a></h2>
 	<h3>Hylian<a id="Hylian"></a></h3>
 	<table class="ffaq">
 		<tbody>
@@ -262,12 +272,18 @@
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td>Hylian Hood<br />Hylian Tunic<br />Hylian Trousers</td>
-				<td>5 Bokoblin Horn</td>
-				<td>8 Bokoblin Horn<br />5 Bokoblin Farming</td>
-				<td>10 Bokoblin Fang<br />5 Bokoblin Guts</td>
-				<td>15 Bokoblin Guts<br />15 Amber</td>
-				<td>Location<br/>Location<br/>Location</td>
+				<td>Hylian Hood</td>
+				<td rowspan="3">5 Bokoblin Horn</td>
+				<td rowspan="3">8 Bokoblin Horn<br />5 Bokoblin Farming</td>
+				<td rowspan="3">10 Bokoblin Fang<br />5 Bokoblin Guts</td>
+				<td rowspan="3">15 Bokoblin Guts<br />15 Amber</td>
+				<td rowspan="3">¹ Kakariko Village Armor Shop<br />² Hateno Village Armor Shop</td>
+			</tr>
+			<tr>
+				<td>Hylian Tunic</td>
+			</tr>
+			<tr>
+				<td>Hylian Tunic</td>
 			</tr>
 		</tbody>
 	</table>
@@ -283,12 +299,18 @@
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td>Soldier's Helm<br />Soldier's Armor<br />Soldier's Greaves</td>
-				<td>5 Chuchu Jelly<br />3 Bokoblin Guts</td>
-				<td>3 Keese Eyeball<br />3 Moblin Guts</td>
-				<td>5 Lizalfos Tail<br />2 Hinox Guts</td>
-				<td>4 Lynel Hoof<br />2 Lynel Guts</td>
-				<td>Location<br/>Location<br/>Location</td>
+				<td>Soldier's Helm</td>
+				<td rowspan="3">5 Chuchu Jelly<br />3 Bokoblin Guts</td>
+				<td rowspan="3">3 Keese Eyeball<br />3 Moblin Guts</td>
+				<td rowspan="3">5 Lizalfos Tail<br />2 Hinox Guts</td>
+				<td rowspan="3">4 Lynel Hoof<br />2 Lynel Guts</td>
+				<td rowspan="3">Hateno Village Armor Shop</td>
+			</tr>
+			<tr>
+				<td>Soldier's Armor</td>
+			</tr>
+			<tr>
+				<td>Soldier's Greaves</td>
 			</tr>
 		</tbody>
 	</table>
@@ -301,20 +323,24 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Snowquill Headdress<br />Snowquill Tunic<br />Snowquill Trousers </td>
-				<td rowspan="2">3 Red Chuchu Jelly</td>
-				<td>5 Red Chuchu Jelly<br />3 Warm Saffina</td>
-				<td>8 Fire Keese Wing<br />5 Sunshroom</td>
-				<td>10 Red Lizalfos Tail<br />5 Ruby</td>
-				<td rowspan="2">Cold Resistance</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Snowquill Headdress</td>
+				<td rowspan="3">3 Red Chuchu Jelly</td>
+				<th colspan="3">Set Bonus: &#x2744;&#xFE0F;&nbsp; Unfreezable</th>
+				<td rowspan="3">&#x2744;&#xFE0F;&nbsp; Cold Resistance</td>
+				<td rowspan="3">Rito Village Armor Shop</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Unfreezable</th>
+				<td>Snowquill Tunic</td>
+				<td rowspan="2">5 Red Chuchu Jelly<br />3 Warm Saffina</td>
+				<td rowspan="2">8 Fire Keese Wing<br />5 Sunshroom</td>
+				<td rowspan="2">10 Red Lizalfos Tail<br />5 Ruby</td>
+			</tr>
+			<tr>
+				<td>Snowquill Trousers</td>
 			</tr>
 		</tbody>
 	</table>
@@ -327,20 +353,24 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Desert Voe Headband<br />Desert Voe Spaulder<br />Desert Voe Trousers </td>
-				<td rowspan="2">3 White Chuchu Jelly</td>
-				<td>5 White Chuchu Jelly<br />3 Ice Keese Wing</td>
-				<td>8 Ice Keese Wing<br />3 Icy Lizalfos Tail</td>
-				<td>10 Icy Lizalfos Tail<br />5 Sapphire</td>
-				<td rowspan="2">Heat Resistance</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Desert Voe Headband</td>
+				<td rowspan="3">3 White Chuchu Jelly</td>
+				<th colspan="3">Set Bonus: &#x26A1;&#xFE0F;&nbsp; Shock Damage Resist</th>
+				<td rowspan="3">&#x2600;&#xFE0F;&nbsp; Heat Resistance</td>
+				<td rowspan="3">¹ Gerudo Secret Club Shop<br />(The Secret Club's Secret)<br />² Tarrey Town Rhondson's Shop<br />(From the Ground Up)</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Shock Damage Resist</th>
+				<td>Desert Voe Spaulder</td>
+				<td rowspan="2">5 White Chuchu Jelly<br />3 Ice Keese Wing</td>
+				<td rowspan="2">8 Ice Keese Wing<br />3 Icy Lizalfos Tail</td>
+				<td rowspan="2">10 Icy Lizalfos Tail<br />5 Sapphire</td>
+			</tr>
+			<tr>
+				<td>Desert Voe Trousers</td>
 			</tr>
 		</tbody>
 	</table>
@@ -353,20 +383,27 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>Effect</th>
+				<th colspan="2">Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Rubber Helm<br />Rubber Armor<br />Rubber Tights </td>
-				<td rowspan="2">3 Yellow Chuchu Jelly</td>
-				<td>5 Yellow Chuchu Jelly<br />5 Voltfruit</td>
-				<td>5 Zapshroom<br />5 Yellow Lizalfos Tail</td>
-				<td>10 Yellow Lizalfos Tail<br />10 Topaz</td>
-				<td rowspan="2">Shock Resistance</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Rubber Helm</td>
+				<td rowspan="3">3 Yellow Chuchu Jelly</td>
+				<th colspan="3">Set Bonus: &#x26A1;&#xFE0F;&nbsp; Unshockable</th>
+				<td rowspan="3">&#x26A1;&#xFE0F;&nbsp; Shock Resistance</td>
+				<td>Cima at Lakeside Stable<br />(Thunder Magnet)</td>
+				<td rowspan="3">Tarrey Town Granté's Shop<br />(From the Ground Up)<br />*must have already<br />owned one piece*</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Unshockable</th>
+				<td>Rubber Armor</td>
+				<td rowspan="2">5 Yellow Chuchu Jelly<br />5 Voltfruit</td>
+				<td rowspan="2">5 Zapshroom<br />5 Yellow Lizalfos Tail</td>
+				<td rowspan="2">10 Yellow Lizalfos Tail<br />10 Topaz</td>
+				<td>Toh Yahsa Shrine</td>
+			</tr>
+			<tr>
+				<td>Rubber Tights</td>
+				<td>Qukah Nata Shrine</td>
 			</tr>
 		</tbody>
 	</table>
@@ -379,24 +416,32 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>Effect</th>
+				<th colspan="2">Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Flamebreaker Helm<br />Flamebreaker Armor<br />Flamebreaker Boots </td>
-				<td rowspan="2">3 Fireproof Lizard<br />3 Moblin Horn</td>
-				<td>5 Fireproof Lizard<br />5 Moblin Fang</td>
-				<td>5 Smotherwing Butterfly<br />3 Moblin Guts</td>
-				<td>5 Smotherwing Butterfly<br />2 Hinox Guts</td>
-				<td rowspan="2">Flame Guard</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Flamebreaker Helm</td>
+				<td rowspan="3">3 Fireproof Lizard<br />3 Moblin Horn</td>
+				<th colspan="3">Set Bonus: &#x1F525;&#xFE0F;&nbsp; Fireproof</th>
+				<td rowspan="3">&#x1F525;&#xFE0F;&nbsp; Flame Guard</td>
+				<td>&#8212;</td>
+				<td rowspan="3">Goron City Armor Shop</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Fireproof</th>
+				<td>Flamebreaker Armor</td>
+				<td rowspan="2">5 Fireproof Lizard<br />5 Moblin Fang</td>
+				<td rowspan="2">5 Smotherwing Butterfly<br />3 Moblin Guts</td>
+				<td rowspan="2">5 Smotherwing Butterfly<br />2 Hinox Guts</td>
+				<td>Kima at Southern Mine<br />(Fireproof Lizard Roundup)</td>
+			</tr>
+			<tr>
+				<td>Flamebreaker Boots</td>
+				<td>&#8212;</td>
 			</tr>
 		</tbody>
 	</table>
 	<h3>Zora<a id="Zora"></a></h3>
+	<p>These armor pieces cannot be sold.</p>
 	<table class="ffaq">
 		<tbody>
 			<tr>
@@ -405,22 +450,30 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Special</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Zora Helm<br />Zora Armor<br />Zora Greaves </td>
-				<td rowspan="2">3 Lizalfos Horn</td>
-				<td>5 Lizalfos Talon<br />5 Hyrule Bass</td>
-				<td>5 Lizalfos Tail<br />5 Hearty Bass</td>
-				<td>10 Lizalfos Tail<br />15 Opal</td>
-				<td rowspan="2">Swim Speed Up</td>
-				<td rowspan="2">Spin Attack<br />Swim Up Waterfalls<br />&#8212;</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Zora Helm</td>
+				<td rowspan="3">3 LizalfosHorn</td>
+				<th colspan="3">Set Bonus: &#x1F30A;&#xFE0F;&nbsp; Swim Dash Stamina Up</th>
+				<td rowspan="3">&#x1F30A;&#xFE0F;&nbsp; Swim Speed Up</td>
+				<td>Spin Attack</td>
+				<td>Chest in Toto Lake</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Swim Dash Stamina Up</th>
+				<td>Zora Armor</td>
+				<td rowspan="2">5 Lizalfos Talon<br />5 Hyrule Bass</td>
+				<td rowspan="2">5 Lizalfos Tail<br />5 Hearty Bass</td>
+				<td rowspan="2">10 Lizalfos Tail<br />15 Opal</td>
+				<td>Swim Up Waterfalls</td>
+				<td>King Dorephan at Zora's Domain<br />(The Divine Beast Vah Ruta)</td>
+			</tr>
+			<tr>
+				<td>Zora Greaves</td>
+				<td>&#8212;</td>
+				<td>Laflat at Zora's Domain<br />(Lynel Safari)</td>
 			</tr>
 		</tbody>
 	</table>
@@ -433,20 +486,24 @@
 				<th>6</th>
 				<th>9</th>
 				<th>16</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Stealth Mask<br />Stealth Chest Guard<br />Stealth Tights </td>
-				<td rowspan="2">3 Blue Nightshade</td>
-				<td>5 Blue Nightshade<br />5 Sunset Firefly</td>
-				<td>8 Silent Shroom<br />5 Sneaky River Snail</td>
-				<td>10 Stealthfin Fish<br />5 Silent Princess</td>
-				<td rowspan="2">Stealth Up</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Stealth Mask</td>
+				<td rowspan="3">3 Blue Nightshade</td>
+				<th colspan="3">Set Bonus: &#x2728;&#xFE0F;&nbsp; Night Speed Up</th>
+				<td rowspan="3">&#x2652;&#xFE0F;&nbsp; Stealth Up</td>
+				<td rowspan="3">Kakariko Village Armor Shop</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Night Speed Up</th>
+				<td>Stealth Chest Guard</td>
+				<td rowspan="2">5 Blue Nightshade<br />5 Sunset Firefly</td>
+				<td rowspan="2">8 Silent Shroom<br />5 Sneaky River Snail</td>
+				<td rowspan="2">10 Stealthfin Fish<br />5 Silent Princess</td>
+			</tr>
+			<tr>
+				<td>Stealth Tights</td>
 			</tr>
 		</tbody>
 	</table>
@@ -459,20 +516,27 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>Effect</th>
+				<th colspan="2">Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Climber's Bandana<br />Climbing Gear<br />Climbing Boots </td>
-				<td rowspan="2">3 Keese Wing<br />3 Rushroom</td>
-				<td>5 Electric Keese Wing<br />5 Hightail Lizard</td>
-				<td>5 Ice Keese Wing<br />10 Hot-Footed Frog</td>
-				<td>5 Fire Keese Wing<br />15 Swift Violet</td>
-				<td rowspan="2">Climb Speed Up</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Climber's Bandana</td>
+				<td rowspan="3">3 Keese Wing<br />3 Rushroom</td>
+				<th colspan="3">Set Bonus: &#x26F0;&#xFE0F;&nbsp; Climbing Jump Stamina Up</th>
+				<td rowspan="3">&#x26F0;&#xFE0F;&nbsp; Climb Speed Up</td>
+				<td>Ree Dahee Shrine</td>
+				<td rowspan="3">Tarrey Town Granté's Shop<br />(From the Ground Up)<br />*must have already<br />owned one piece*</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Climbing Jump Stamina Up</th>
+				<td>Climbing Gear</td>
+				<td rowspan="2">5 Electric Keese Wing<br />5 Hightail Lizard</td>
+				<td rowspan="2">5 Ice Keese Wing<br />10 Hot-Footed Frog</td>
+				<td rowspan="2">5 Fire Keese Wing<br />15 Swift Violet</td>
+				<td>Chaas Qeta Shrine</td>
+			</tr>
+			<tr>
+				<td>Climbing Boots</td>
+				<td>Tahno O'ah Shrine</td>
 			</tr>
 		</tbody>
 	</table>
@@ -485,22 +549,31 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>[Dragon]</th>
-				<th>Bonus</th>
-				<th>Location</th>
+				<th>[Enemy]</th>
+				<th>Effect</th>
+				<th colspan="2">Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Barbarian Helm<br />Barbarian Armor<br />Barbarian Leg Wraps </td>
-				<td rowspan="2">3 Lynel Horn</td>
-				<td>5 Lynel Horn<br />3 Lynel Hoof</td>
-				<td>4 Lynel Hoof<br />1 Lynel Guts</td>
-				<td>2 Lynel Guts<br />1 [Dragon]'s Horn</td>
-				<td rowspan="2">Dinraal<br />Naydra<br />Farosh</td>
-				<td rowspan="2">Attack Up</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Barbarian Helm</td>
+				<td rowspan="3">3 Lynel Horn</td>
+				<th colspan="3">Set Bonus: &#x1F5E1;&#xFE0F;&nbsp; Charge Atk. Stamina Up</th>
+				<td>Dinraal</td>
+				<td rowspan="3">&#x1F5E1;&#xFE0F;&nbsp; Attack Up</td>
+				<td>Tu Ka'loh Shrine</td>
+				<td rowspan="3">Tarrey Town Granté's Shop<br />(From the Ground Up)<br />*must have already<br />owned one piece*</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Charge Atk. Stamina Up</th>
+				<td>Barbarian Armor</td>
+				<td rowspan="2">5 Lynel Horn<br />3 Lynel Hoof</td>
+				<td rowspan="2">4 Lynel Hoof<br />1 Lynel Guts</td>
+				<td rowspan="2">2 Lynel Guts<br />1 [Enemy]'s Horn</td>
+				<td>Naydra</td>
+				<td>Dila Maag Shrine</td>
+			</tr>
+			<tr>
+				<td>Barbarian Leg Wraps</td>
+				<td>Farosh</td>
+				<td>Qaza Tokki Shrine</td>
 			</tr>
 		</tbody>
 	</table>
@@ -517,16 +590,20 @@
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Radiant Mask<br />Radiant Shirt<br />Radiant Tights </td>
-				<td rowspan="2">5 Luminous Stone<br />3 Bokoblin Guts</td>
-				<td>8 Luminous Stone<br />3 Moblin Guts</td>
-				<td>10 Luminous Stone<br />3 Molduga Guts</td>
-				<td>20 Luminous Stone<br />1 Lynel Guts</td>
-				<td rowspan="2">Stal Lure</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Radiant Mask</td>
+				<td rowspan="3">5 Luminous Stone<br />3 Bokoblin Guts</td>
+				<th colspan="3">Set Bonus: &#x2728;&#xFE0F;&nbsp; Disguise; Bone Atk. Up</th>
+				<td rowspan="3">Stal Lure</td>
+				<td rowspan="3">Gerudo Secret Club Shop<br />(The Secret Club's Secret)</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Disguise; Bone Atk. Up</th>
+				<td>Radiant Shirt</td>
+				<td rowspan="2">8 Luminous Stone<br />3 Moblin Guts</td>
+				<td rowspan="2">10 Luminous Stone<br />3 Molduga Guts</td>
+				<td rowspan="2">20 Luminous Stone<br />1 Lynel Guts</td>
+			</tr>
+			<tr>
+				<td>Radiant Tights</td>
 			</tr>
 		</tbody>
 	</table>
@@ -539,24 +616,29 @@
 				<th>12</th>
 				<th>20</th>
 				<th>28</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Ancient Helm<br />Ancient Cuirass<br />Ancient Greaves </td>
-				<td rowspan="2">5 Ancient Screw<br />5 Ancient Spring</td>
-				<td>15 Ancient Spring<br />10 Ancient Gear</td>
-				<td>15 Ancient Shaft<br />5 Ancient Core</td>
-				<td>1 Star Fragment<br />2 Giant Ancient Core</td>
-				<td rowspan="2">Guardian Resist Up</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Ancient Helm</td>
+				<td rowspan="3">5 Ancient Screw<br />5 Ancient Spring</td>
+				<th colspan="3">Set Bonus: &#x1F300;&#xFE0F;&nbsp; Ancient Proficiency</th>
+				<td rowspan="3">&#x1F300;&#xFE0F;&nbsp; Guardian Resist Up</td>
+				<td rowspan="3">Akkala Ancient Tech Lab<br />(Robbie's Research)</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Ancient Proficiency</th>
+				<td>Ancient Cuirass</td>
+				<td rowspan="2">15 Ancient Spring<br />10 Ancient Gear</td>
+				<td rowspan="2">15 Ancient Shaft<br />5 Ancient Core</td>
+				<td rowspan="2">1 Star Fragment<br />2 Giant Ancient Core</td>
+			</tr>
+			<tr>
+				<td>Ancient Greaves</td>
 			</tr>
 		</tbody>
 	</table>
 	<h3>Wild<a id="Wild"></a></h3>
+	<p>These armor pieces cannot be sold.</p>
 	<table class="ffaq">
 		<tbody>
 			<tr>
@@ -565,24 +647,116 @@
 				<th>12</th>
 				<th>20</th>
 				<th>28</th>
-				<th>[Dragon]</th>
+				<th>[Enemy]</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of the Wild<br />Tunic of the Wild<br />Trousers of the Wild </td>
-				<td rowspan="2">10 Acorn<br />2 [Dragon]'s Scale</td>
-				<td>5 Courser Bee Honey<br />2 [Dragon]'s Claw</td>
-				<td>5 Energetic Rhino Beetle<br />2 [Dragon]'s Fang</td>
-				<td>1 Star Fragment<br />2 [Dragon]'s Horn</td>
-				<td rowspan="2">Farosh<br />Naydra<br />Dinraal</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Cap of the Wild</td>
+				<td rowspan="3">10 Acorn<br />2 [Enemy]'s Scale</td>
+				<th colspan="3">Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td>Farosh</td>
+				<td rowspan="3">Chest in Forgotten Temple<br />(A Gift from the Monks)</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Master Sword Beam Up</th>
+				<td>Tunic of the Wild</td>
+				<td rowspan="2">5 Courser Bee Honey<br />2 [Enemy]'s Claw</td>
+				<td rowspan="2">5 Energetic Rhino Beetle<br />2 [Enemy]'s Fang</td>
+				<td rowspan="2">1 Star Fragment<br />2 [Enemy]'s Horn</td>
+				<td>Naydra</td>
+			</tr>
+			<tr>
+				<td>Trousers of the Wild</td>
+				<td>Dinraal</td>
 			</tr>
 		</tbody>
 	</table>
-	<h2>Amiibo Gear<a id="Amiibo Gear"></a></h2>
+	<h2>Non-Upgradeable Armor<a id="Non-Upgradeable Armor"></a></h2>
+	<table class="ffaq">
+		<tbody>
+			<tr>
+				<th colspan="2">1</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td colspan="2">Old Shirt</td>
+				<td rowspan="2">¹ Chest in Shrine of Resurrection<br />² Tarrey Town Granté's Shop<br />(From the Ground Up)</td>
+			</tr>
+			<tr>
+				<td colspan="2">Well-Worn Trousers</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<th>Effect</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Warm Doublet</td>
+				<td>&#x2744;&#xFE0F;&nbsp; Cold Resistance</td>
+				<td>¹ Old Man at Great Plateau<br />² Kakariko Village Armor Shop<br />³ Hateno Village Armor Shop</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<th>Set Bonus</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Gerudo Veil</td>
+				<td rowspan="3">&#x2600;&#xFE0F;&nbsp; Heat-Resistant</td>
+				<td rowspan="3">Vilia at Kara Kara Bazaar<br />(Forbidden City Entry)</td>
+			</tr>
+			<tr>
+				<td>Gerudo Top</td>
+			</tr>
+			<tr>
+				<td>Gerudo Sirwal</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<th>Effect</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Thunder Helm<br />*cannot be sold*</td>
+				<td>&#x1F329;&#xFE0F;&nbsp; Lightning Proof</td>
+				<td>Riju at Gerudo Town<br />(The Thunder Helm)</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<th>Set Bonus</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Dark Hood</td>
+				<td rowspan="3">&#x2728;&#xFE0F;&nbsp; Night Speed Up</td>
+				<td rowspan="3">Kilton's Monster Shop</td>
+			</tr
+			<tr>
+				<td>Dark Tunic</td>
+			</tr>
+			<tr>
+				<td>Dark Trousers</td>
+			</tr>			<tr>
+				<th>3</th>
+				<th>Special</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Bokoblin Mask</td>
+				<td rowspan="4">Disguise</td>
+				<td rowspan="4">Kilton's Monster Shop<br />*after completing Divine Beasts*</td>
+			</tr>
+			<tr>
+				<td>Moblin Mask</td>
+			</tr>
+			<tr>
+				<td>Lizalfos Mask</td>
+			</tr>
+			<tr>
+				<td>Lynel Mask</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Amiibo Armor<a id="Amiibo Armor"></a></h2>
 	<h3>Sheik's Mask<a id="Sheik's Mask"></a></h3>
 	<table class="ffaq">
 		<tbody>
@@ -592,7 +766,7 @@
 				<th>6</th>
 				<th>9</th>
 				<th>16</th>
-				<th>Bonus</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
@@ -601,8 +775,8 @@
 				<td>2 Silent Princess<br />2 Star Fragment</td>
 				<td>3 Silent Princess<br />3 Star Fragment</td>
 				<td>4 Silent Princess<br />4 Star Fragment</td>
-				<td>Stealth Up</td>
-				<td>Location</td>
+				<td>&#x2652;&#xFE0F;&nbsp; Stealth Up</td>
+				<td>Sheik amiibo</td>
 			</tr>
 		</tbody>
 	</table>
@@ -615,22 +789,28 @@
 				<th>8</th>
 				<th>12</th>
 				<th>20</th>
-				<th>[Dragon]</th>
-				<th>Bonus</th>
+				<th>[Enemy]</th>
+				<th>Effect</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Fierce Deity Mask<br />Fierce Deity Armor<br />Fierce Deity Boots </td>
-				<td rowspan="2">5 Hinox Toenail<br />1 [Dragon]'s Scale</td>
-				<td>5 Hinox Tooth<br />1 [Dragon]'s Claw</td>
-				<td>5 Hinox Guts<br />1 [Dragon]'s Fang</td>
-				<td>5 Lynel Guts<br />1 [Dragon]'s Horn</td>
-				<td rowspan="2">Dinraal<br />Naydra<br />Farosh</td>
-				<td rowspan="2">Attack Up</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Fierce Deity Mask</td>
+				<td rowspan="3">5 Hinox Toenail<br />1 [Enemy]'s Scale</td>
+				<th colspan="3">Set Bonus: &#x1F5E1;&#xFE0F;&nbsp; Charge Atk. Stamina Up</th>
+				<td>Dinraal</td>
+				<td rowspan="3">&#x1F5E1;&#xFE0F;&nbsp; Attack Up</td>
+				<td rowspan="3">Zelda 30th - Majora's Mask amiibo</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Charge Atk. Stamina Up</th>
+				<td>Fierce Deity Armor</td>
+				<td rowspan="2">5 Hinox Tooth<br />1 [Enemy]'s Claw</td>
+				<td rowspan="2">5 Hinox Guts<br />1 [Enemy]'s Fang</td>
+				<td rowspan="2">5 Lynel Guts<br />1 [Enemy]'s Horn</td>
+				<td>Naydra</td>
+			</tr>
+			<tr>
+				<td>Fierce Deity Boots</td>
+				<td>Farosh</td>
 			</tr>
 		</tbody>
 	</table>
@@ -646,63 +826,84 @@
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of Time<br />Tunic of Time<br />Trousers of Time</td>
-				<td rowspan="2">3 Amber<br />1 Star Fragment</td>
-				<td>5 Amber<br />1 Star Fragment</td>
-				<td>15 Amber<br />1 Star Fragment</td>
-				<td>30 Amber<br />1 Star Fragment</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Cap of Time</td>
+				<td rowspan="3">3 Amber<br />1 Star Fragment</td>
+				<th colspan="3">Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td rowspan="3">Zelda 30th - Ocarina of Time amiibo</td>
 			</tr>
 			<tr>
-				<th colspan="3">Set Bonus: Master Sword Beam Up</th>
+				<td>Tunic of Time</td>
+				<td rowspan="2">5 Amber<br />1 Star Fragment</td>
+				<td rowspan="2">15 Amber<br />1 Star Fragment</td>
+				<td rowspan="2">30 Amber<br />1 Star Fragment</td>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of the Wind<br />Tunic of the Wind<br />Trousers of the Wind </td>
-				<td rowspan="2">3 Opal<br />1 Star Fragment </td>
-				<td>5 Opal<br />1 Star Fragment</td>
-				<td>10 Opal<br />1 Star Fragment</td>
-				<td>20 Opal<br />1 Star Fragment</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Trousers of Time</td>
 			</tr>
 			<tr>
-				<th colspan="3"> Set Bonus: Master Sword Beam Up</th>
+				<td>Cap of the Wind</td>
+				<td rowspan="3">3 Opal<br />1 Star Fragment </td>
+				<th colspan="3"> Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td rowspan="3">¹ SSB - Toon Link amiibo<br />² Zelda 30th - Windwaker amiibo</td>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of Twilight<br />Tunic of Twilight<br />Trousers of Twilight </td>
-				<td rowspan="2">1 Topaz<br />1 Star Fragment </td>
-				<td>3 Topaz<br />1 Star Fragment</td>
-				<td>5 Topaz<br />1 Star Fragment</td>
-				<td>10 Topaz<br />1 Star Fragment</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Tunic of Wind</td>
+				<td rowspan="2">5 Opal<br />1 Star Fragment</td>
+				<td rowspan="2">10 Opal<br />1 Star Fragment</td>
+				<td rowspan="2">20 Opal<br />1 Star Fragment</td>
 			</tr>
 			<tr>
-				<th colspan="3"> Set Bonus: Master Sword Beam Up</th>
+				<td>Trousers of Wind</td>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of the Sky<br />Tunic of the Sky<br />Trousers of the Sky </td>
-				<td rowspan="2">1 Sapphire<br />1 Star Fragment </td>
-				<td>3 Sapphire<br />1 Star Fragment</td>
-				<td>5 Sapphire<br />1 Star Fragment</td>
-				<td>10 Sapphire<br />1 Star Fragment</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Cap of Twilight</td>
+				<td rowspan="3">1 Topaz<br />1 Star Fragment </td>
+				<th colspan="3"> Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td rowspan="3">¹ SSB - Link amiibo<br />² Zelda 30th - Twilight Princess amiibo</td>
 			</tr>
 			<tr>
-				<th colspan="3"> Set Bonus: Master Sword Beam Up</th>
+				<td>Tunic of Twilight</td>
+				<td rowspan="2">3 Topaz<br />1 Star Fragment</td>
+				<td rowspan="2">5 Topaz<br />1 Star Fragment</td>
+				<td rowspan="2">10 Topaz<br />1 Star Fragment</td>
 			</tr>
 			<tr>
-				<td rowspan="2">Cap of the Hero<br />Tunic of the Hero<br />Trousers of the Hero </td>
-				<td rowspan="2">1 Ruby<br />1 Star Fragment </td>
-				<td>3 Ruby<br />1 Star Fragment</td>
-				<td>5 Ruby<br />1 Star Fragment</td>
-				<td>10 Ruby<br />1 Star Fragment</td>
-				<td rowspan="2">Location<br/>Location<br/>Location</td>
+				<td>Trousers of Twilight</td>
 			</tr>
 			<tr>
-				<th colspan="3"> Set Bonus: Master Sword Beam Up</th>
+				<td>Cap of the Sky</td>
+				<td rowspan="3">1 Sapphire<br />1 Star Fragment </td>
+				<th colspan="3"> Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td rowspan="3">Zelda 30th - Skyward Sword amiibo</td>
+			</tr>
+			<tr>
+				<td>Tunic of the Sky</td>
+				<td rowspan="2">3 Sapphire<br />1 Star Fragment</td>
+				<td rowspan="2">5 Sapphire<br />1 Star Fragment</td>
+				<td rowspan="2">10 Sapphire<br />1 Star Fragment</td>
+			</tr>
+			<tr>
+				<td>Trousers of the Sky</td>
+			</tr>
+			<tr>
+				<td>Cap of the Hero</td>
+				<td rowspan="3">1 Ruby<br />1 Star Fragment </td>
+				<th colspan="3"> Set Bonus: &#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</th>
+				<td rowspan="3">Zelda 30th - The Legend of Zelda amiibo</td>
+			</tr>
+			<tr>
+				<td>Tunic of The Hero</td>
+				<td rowspan="2">3 Ruby<br />1 Star Fragment</td>
+				<td rowspan="2">5 Ruby<br />1 Star Fragment</td>
+				<td rowspan="2">10 Ruby<br />1 Star Fragment</td>
+			</tr>
+			<tr>
+				<td>Trousers of The Hero</td>
 			</tr>
 		</tbody>
 	</table>
-	<h2>Non Upgradeable Armor<a id="Non Upgradeable Armor"></a></h2>
+	<h2>DLC Armor<a id="DLC Armor"></a></h2>
+	<p>If sold, these armor pieces cannot be replaced.</p>
 	<table class="ffaq">
 		<tbody>
 			<tr>
@@ -710,72 +911,69 @@
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td colspan="2">Old Shirt</td>
-				<td>Location</td>
-			</tr>
-			<tr>
-				<td colspan="2">Well-Worn Trousers</td>
-				<td>Location</td>
+				<td colspan="2">Nintendo Switch Shirt</td>
+				<td>Chest in Eastern Abbey</td>
 			</tr>
 			<tr>
 				<th>1</th>
-				<th>Bonus</th>
-				<th>Location</th>
-			</tr>
-			<tr>
-				<td>Warm Doublet</td>
-				<td>Cold Resistance</td>
-				<td>Location</td>
-			</tr>
-			<tr>
-				<th>1</th>
-				<th>Set Bonus</th>
-				<th>Location</th>
-			</tr>
-			<tr>
-				<td>Gerudo Veil<br />Gerudo Top<br />Gerudo Sirwal</td>
-				<td>Heat Resistance</td>
-				<td>Location</td>
-			</tr>
-			<tr>
-				<th>3</th>
-				<th>Bonus</th>
-				<th>Location</th>
-			</tr>
-			<tr>
-				<td>Thunder Helm</td>
-				<td>Lightning Proof</td>
-				<td>Location</td>
-			</tr>
-			<tr>
-				<th>3</th>
-				<th>Set Bonus</th>
-				<th>Location</th>
-			</tr>
-			<tr>
-				<td>Dark Hood<br />Dark Tunic<br />Dark Trousers</td>
-				<td>Night Speed Up</td>
-				<td>Location</td>
-			</tr>
-			<tr>
-				<th>3</th>
 				<th>Special</th>
 				<th>Location</th>
 			</tr>
 			<tr>
-				<td>Bokoblin Mask</td>
-				<td rowspan="4">Disguise</td>
-				<td rowspan="4">Location</td>
+				<td>Korok Mask</td>
+				<td>Korok Shake</td>
+				<td>Chest in Lost Woods</td>
 			</tr>
 			<tr>
-				<td>Moblin Mask</td>
+				<td>Majora's Mask</td>
+				<td>Disguise</td>
+				<td>Chest in Garrison Ruins</td>
 			</tr>
 			<tr>
-				<td>Lizalfos Mask</td>
+				<th>2</th>
+				<th>Set Bonus</th>
+				<th>Location</th>
 			</tr>
 			<tr>
-				<td>Lynel Mask</td>
+				<td>Tingle's Hood</td>
+				<td rowspan="3">&#x2728;&#xFE0F;&nbsp; Night Speed Up</td>
+				<td>Chest in Exchange Ruins</td>
 			</tr>
+			<tr>
+				<td>Tingle's Shirt</td>
+				<td>Chest in Castle Town Prison</td>
+			</tr>
+			<tr>
+				<td>Tingle's Tights</td>
+				<td>Chest in Mabe Village Ruins</td>
+			</tr>
+			<tr>
+				<th>7</th>
+				<th>Effect</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Midna's Helmet</td>
+				<td>&#x1F300;&#xFE0F;&nbsp; Guardian Resist Up</td>
+				<td>Chest in Sage Temple Ruins</td>
+			</tr>
+			<tr>
+				<th>8</th>
+				<th>Effect</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Phantom Helmet</td>
+				<td rowspan="3">&#x1F5E1;&#xFE0F;&nbsp; Attack Up</td>
+				<td>Chest in Coliseum Ruins</td>
+			</tr
+			<tr>
+				<td>Phantom Armor</td>
+				<td>Chest in Sacred Ground Ruins</td>
+			</tr>
+			<tr>
+				<td>Phantom Greaves</td>
+				<td>Chest in Hyrule Garrison Ruins</td>
 		</tbody>
 	</table>
 	<h2>Effects<a id="Effects"></a></h2>
@@ -790,17 +988,17 @@
 			</tr>
 			<tr>
 				<td>Heat</td>
-				<td>Fire<br />Fire Weapon</td>
-				<td>&#8226; increases the temperature to survive in cold areas<br />&#8226; +10 fire elemental damage<br />&#8226; instantly kills ice enemies<br />&#8226; sets enemies fleeing on fire</td>
+				<td>&#8226; Fire<br />&#8226; Fire Weapon</td>
+				<td>&#8226; increases the temperature to survive in cold areas<br />(equivalent to 1 Level &#x2744;&#xFE0F;&nbsp; Cold Resistance)<br />&#8226; +10 fire elemental damage<br />&#8226; instantly kills ice enemies<br />&#8226; sets enemies fleeing on fire</td>
 			</tr>
 			<tr>
-				<td>Cold Resistance<br />(2 Levels)</td>
-				<td>Ruby Circlet<br />Snowquill Armor Pieces<br />Spicy Food, Elixirs</td>
+				<td>&#x2744;&#xFE0F;&nbsp; Cold Resistance<br />(2 Levels)</td>
+				<td>&#8226; Ruby Circlet<br />&#8226; Snowquill Armor Pieces<br />&#8226; Spicy Food, Elixirs</td>
 				<td>&#8226; withstand cold in snow regions, high altitudes, or desert nights <br />(lowers the temparature range that damages)</td>
 			</tr>
 			<tr>
-				<td>Unfreezable</td>
-				<td>Snowquill Set Bonus</td>
+				<td>&#x2744;&#xFE0F;&nbsp; Unfreezable</td>
+				<td>&#8226; Snowquill Set Bonus</td>
 				<td>&#8226; eliminates elemental ice damage (e.g. ice enemies and ice weapons)<br />&#8226; prevents being trapped in ice<br />&#8226; does not protect from extreme cold water in snow regions</td>
 			</tr>
 		</tbody>
@@ -815,22 +1013,27 @@
 			</tr>
 			<tr>
 				<td>Cold</td>
-				<td>Ice Weapon</td>
-				<td>&#8226; decreases the temperature to survive in hot regions<br />&#8226; +10 ice elemental damage<br />&#8226; instantly kills fire enemies<br />&#8226; traps enemies in ice, making the next hit 300% damage<br />(enemies in ice react to electricity as if in water)</td>
+				<td>&#8226; Ice Weapon</td>
+				<td>&#8226; decreases the temperature to survive in hot regions<br />(equivalent to 1 Level &#x2600;&#xFE0F;&nbsp; Heat Resistance)<br />&#8226; +10 ice elemental damage<br />&#8226; instantly kills fire enemies<br />&#8226; traps enemies in ice, making the next hit 300% damage<br />(enemies in ice react to electricity as if in water)</td>
 			</tr>
 			<tr>
-				<td>Heat Resistance<br />(2 Levels)</td>
-				<td>Sapphire Circlet<br />Gerudo Set Bonus<br />Desert Voe Armor Pieces<br />Chilly Food, Elixirs</td>
+				<td>&#x2600;&#xFE0F;&nbsp; Heat Resistance<br />(2 Levels)</td>
+				<td>&#8226; Sapphire Circlet<br />&#8226; Desert Voe Armor Pieces<br />&#8226; Frozen Food<br />&#8226; Chilly Food, Elixirs</td>
 				<td>&#8226; withstand heat in the desert sun <br />(raises the temparature range that damages)</td>
 			</tr>
 			<tr>
-				<td>Flame Guard</td>
-				<td>Flamebreaker Armor Pieces<br />Fireproof Elixirs</td>
+				<td>&#x2600;&#xFE0F;&nbsp; Heat-Resistant</td>
+				<td>&#8226; Gerudo Set Bonus</td>
+				<td>&#8226; Level 1 &#x2600;&#xFE0F;&nbsp; Heat Resistance</td>
+			</tr>
+			<tr>
+				<td>&#x1F525;&#xFE0F;&nbsp; Flame Guard</td>
+				<td>&#8226; Flamebreaker Armor Pieces<br />&#8226; Fireproof Elixirs</td>
 				<td>&#8226; survive in the fire-inducing extreme heat of Death Mountain</td>
 			</tr>
 			<tr>
-				<td>Fireproof</td>
-				<td>Flamebreaker Set Bonus</td>
+				<td>&#x1F525;&#xFE0F;&nbsp; Fireproof</td>
+				<td>&#8226; Flamebreaker Set Bonus</td>
 				<td>&#8226; eliminates elemental fire damage <br />(e.g. fire, fire enemies, fire weapons, Death Mountain geysers)<br />&#8226; prevents catching on fire<br />&#8226; does not protect from lava</td>
 			</tr>
 		</tbody>
@@ -845,22 +1048,22 @@
 			</tr>
 			<tr>
 				<td>Shock</td>
-				<td>Electric Current<br />Electric Weapon<br />Electric Field</td>
+				<td>&#8226; Electric Current<br />&#8226; Electric Weapon<br />&#8226; Electric Field</td>
 				<td>&#8226; +20 electric elemental damage<br />&#8226; momentarily stuns enemies and makes them drop their weapons<br />&#8226; electric fields do 40 damage </td>
 			</tr>
 			<tr>
-				<td>Shock Resistance<br />(3 Levels)</td>
-				<td>Topaz Earrings<br />Rubber Armor Pieces<br />Electro Food, Elixirs</td>
+				<td>&#x26A1;&#xFE0F;&nbsp; Shock Resistance<br />(3 Levels)</td>
+				<td>&#8226; Topaz Earrings<br />&#8226; Rubber Armor Pieces<br />&#8226; Electro Food, Elixirs</td>
 				<td>&#8226; prevents weapon loss and reduces elemental damage from electric shock <br />(e.g. electric enemies, electric weapons, electric currents through metal or water)</td>
 			</tr>
 			<tr>
-				<td>Shock Damage Resist</td>
-				<td>Desert Voe Set Bonus</td>
-				<td>&#8226; Level 2 Shock Resistance</td>
+				<td>&#x26A1;&#xFE0F;&nbsp; Shock Damage Resist</td>
+				<td>&#8226; Desert Voe Set Bonus</td>
+				<td>&#8226; Level 2 ⚡ Shock Resistance</td>
 			</tr>
 			<tr>
-				<td>Unshockable<br />Lightning Proof</td>
-				<td>Rubber Set Bonus<br />Thunder Helm</td>
+				<td>&#x26A1;&#xFE0F;&nbsp; Unshockable<br />🌩 Lightning Proof</td>
+				<td>&#8226; Rubber Set Bonus<br />&#8226; Thunder Helm</td>
 				<td>&#8226; eliminates electric elemental damage <br />(e.g. electric currents through metal or water, electric enemies, electric weapons)<br />&#8226; eliminates all damage from lightning strikes</td>
 			</tr>
 		</tbody>
@@ -874,53 +1077,53 @@
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td>Swim Speed Up<br />(3 Levels)</td>
-				<td>Opal Earrings<br />Zora Armor Pieces<br />Hasty Food, Elixirs</td>
+				<td>&#x1F30A;&#xFE0F;&nbsp; Swim Speed Up<br />(3 Levels)</td>
+				<td>&#8226; Opal Earrings<br />&#8226; Zora Armor Pieces<br />&#8226; Hasty Food, Elixirs</td>
 				<td>&#8226; increases swim speed</td>
 			</tr>
 			<tr>
-				<td>Swim Dash Stamina Up</td>
-				<td>Zora Set Bonus</td>
+				<td>&#x1F30A;&#xFE0F;&nbsp; Swim Dash Stamina Up</td>
+				<td>&#8226; Zora Set Bonus</td>
 				<td>&#8226; -50% stamina used to dash while swimming</td>
 			</tr>
 			<tr>
 				<td>Spin Attack</td>
-				<td>Zora Helm</td>
+				<td>&#8226; Zora Helm</td>
 				<td>&#8226; press Y to perform a spin attack in the water</td>
 			</tr>
 			<tr>
 				<td>Swim Up Waterfalls</td>
-				<td>Zora Armor</td>
+				<td>&#8226; Zora Armor</td>
 				<td>&#8226; press A when there's a prompt to swim up a waterfall</td>
 			</tr>
 			<tr>
-				<td>Climb Speed Up<br />(3 Levels)</td>
-				<td>Climbing Armor Pieces<br />Hasty Food, Elixirs</td>
+				<td>&#x26F0;&#xFE0F;&nbsp; Climb Speed Up<br />(3 Levels)</td>
+				<td>&#8226; Climbing Armor Pieces<br />&#8226; Hasty Food, Elixirs</td>
 				<td>&#8226; increases climb speed</td>
 			</tr>
 			<tr>
-				<td>Climbing Jump Stamina Up</td>
-				<td>Climbing Set Bonus</td>
+				<td>&#x26F0;&#xFE0F;&nbsp; Climbing Jump Stamina Up</td>
+				<td>&#8226; Climbing Set Bonus</td>
 				<td>&#8226; -50% stamina used to jump while climbing</td>
 			</tr>
 			<tr>
-				<td>Night Speed Up</td>
-				<td>Stealth Set Bonus<br />Dark Set Bonus</td>
+				<td>&#x2728;&#xFE0F;&nbsp; Night Speed Up</td>
+				<td>&#8226; Stealth Set Bonus<br />&#8226; Dark Set Bonus</td>
 				<td>&#8226; increases walk/run speed at night</td>
 			</tr>
 			<tr>
-				<td>Sand Speed Up</td>
-				<td>Sand Boots</td>
+				<td>&#x1F463;&#xFE0F;&nbsp; Sand Speed Up</td>
+				<td>&#8226; Sand Boots</td>
 				<td>&#8226; restores walk/run speed to normal on sand</td>
 			</tr>
 			<tr>
-				<td>Snow Speed Up</td>
-				<td>Snow Boots</td>
+				<td>&#x1F463;&#xFE0F;&nbsp; Snow Speed Up</td>
+				<td>&#8226; Snow Boots</td>
 				<td>&#8226; restores walk/run speed to normal on snow</td>
 			</tr>
 			<tr>
-				<td>Movement Speed Up<br />(3 Levels)</td>
-				<td>Hasty Food, Elixirs</td>
+				<td>&#x2934;&#xFE0F;&nbsp; Movement Speed Up<br />(3 Levels)</td>
+				<td>&#8226; Hasty Food, Elixirs</td>
 				<td>&#8226; increases movement speed (walk, run, climb, swim)</td>
 			</tr>
 		</tbody>
@@ -934,40 +1137,40 @@
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td>Attack Up<br />(3 Levels)</td>
-				<td>Barbarian Armor Pieces<br />Fierce Deity Armor Pieces<br />Mighty Food, Elixirs</td>
+				<td>&#x1F5E1;&#xFE0F;&nbsp; Attack Up<br />(3 Levels)</td>
+				<td>&#8226; Barbarian Armor Pieces<br />&#8226; Fierce Deity Armor Pieces<br />&#8226; Mighty Food, Elixirs</td>
 				<td>&#8226; +20% / +30% / +50% attack damage<br />&#8226; does not affect elemental damage, Urbosa's Fury, or Master Sword Beam</td>
 			</tr>
 			<tr>
-				<td>Charge Atk. Stamina Up</td>
-				<td>Barbarian Set Bonus<br />Fierce Deity Set Bonus</td>
+				<td>&#x1F5E1;&#xFE0F;&nbsp; Charge Atk. Stamina Up</td>
+				<td>&#8226; Barbarian Set Bonus<br />&#8226; Fierce Deity Set Bonus</td>
 				<td>&#8226; -50% stamina used when charging an attack</td>
 			</tr>
 			<tr>
-				<td>Bone Atk. Up</td>
-				<td>Radiant Set Bonus</td>
+				<td>&#x2728;&#xFE0F;&nbsp; Bone Atk. Up</td>
+				<td>&#8226; Radiant Set Bonus</td>
 				<td>&#8226; +80% damage with bone weapons</td>
 			</tr>
 			<tr>
-				<td>Ancient Proficiency</td>
-				<td>Ancient Set Bonus</td>
+				<td>&#x1F300;&#xFE0F;&nbsp; Ancient Proficiency</td>
+				<td>&#8226; Ancient Set Bonus</td>
 				<td>&#8226; +80% damage with guardian/ancient weapons against all enemies<br />(stacks with +30/50% damage with guardian/ancient weapons against Guardians)</td>
 			</tr>
 			<tr>
-				<td>Master Sword Beam Up</td>
-				<td>Wild Set Bonus<br />Green Tunics Set Bonus</td>
+				<td>&#x2728;&#xFE0F;&nbsp; Master Sword Beam Up</td>
+				<td>&#8226; Wild Set Bonus<br />&#8226; Green Tunics Set Bonus</td>
 				<td>&#8226; +50% damage "throwing" a beam from the Master Sword<br />(beam does 10 damage normally, 20 damage when blade glows)</td>
 			</tr>
 			<tr>
-				<td colspan="2">Sneak Attack</td>
-				<td>&#8226; sneak up behind enemy and press Y when prompted<br />&#8226; 800% damage</td>
-			</tr>
-			<tr>
 				<td>Wind</td>
-				<td>Windcleaver</td>
+				<td>&#8226; Windcleaver</td>
 				<td>&#8226; 10 wind elemental damage from wind slash<br />&#8226; each charge level adds 10 more damage</td>
 			</tr>
+
 			<tr>
+				<td colspan="2">Sneak Attack</td>
+				<td>&#8226; sneak up behind enemy and press Y when prompted<br />&#8226; 800% damage</td>
+			</tr>			<tr>
 				<td colspan="2">Urbosa's Fury</td>
 				<td>&#8226; 150 damage, or 500 damage to Lynels, Guardians, Mini-Bosses<br />&#8226; stuns enemies much longer than shock damage</td>
 			</tr>
@@ -982,42 +1185,57 @@
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td>Stealth Up<br />(3 Levels)</td>
-				<td>Stealth Armor Pieces<br />Sneaky Food, Elixirs</td>
+				<td>See Enemy HP</td>
+				<td>&#8226; Champion's Tunic</td>
+				<td>&#8226; displays enemy's number of HP above its health bar</td>
+			</tr>
+			<tr>
+				<td>&#x2652;&#xFE0F;&nbsp; Stealth Up<br />(3 Levels)</td>
+				<td>&#8226; Stealth Armor Pieces<br />&#8226; Sneaky Food, Elixirs</td>
 				<td>&#8226; decreases enemies' and creatures' awareness of Link</td>
 			</tr>
 			<tr>
 				<td>Disguise</td>
-				<td>Radiant Set Bonus<br />Enemy Masks</td>
-				<td>&#8226; walk among different enemy types without triggering aggression</td>
+				<td>&#8226; Radiant Set Bonus<br />&#8226; Kilton's Enemy Masks<br />&#8226; Majora's Mask</td>
+				<td>&#8226; walk among select enemy types without triggering aggression:<br />Stal-enemies &rarr; Radiant Set Bonus<br />Bokoblin, Moblin, Lizalfos, Lynel &rarr; respective Mask<br />&#8226; Majora's Mask works for all of the enemies above</td>
 			</tr>
 			<tr>
 				<td>Stal Lure</td>
-				<td>Radiant Armor Pieces</td>
+				<td>&#8226; Radiant Armor Pieces</td>
 				<td>&#8226; increases frequency of Stal enemies appearing</td>
 			</tr>
 			<tr>
-				<td>Guardian Resist Up<br />(3 Levels)</td>
-				<td>Diamond Circlet<br />Ancient Armor Pieces</td>
+				<td>&#x1F300;&#xFE0F;&nbsp; Guardian Resist Up<br />(3 Levels)</td>
+				<td>&#8226; Diamond Circlet<br />&#8226; Ancient Armor Pieces</td>
 				<td>&#8226; -20% / -30% / -50% damage from Guardian attacks<br />(Guardian beams also do elemental fire damage)</td>
 			</tr>
 			<tr>
-				<td>Defense Up<br />(3 Levels)</td>
-				<td>Tough Food, Elixirs</td>
+				<td>&#x1F455;&#xFE0F;&nbsp; Defense Up<br />(3 Levels)</td>
+				<td>&#8226; Tough Food, Elixirs</td>
 				<td>&#8226; +4 / +12 / +24 defense (i.e. 1 / 3 / 6 hearts)</td>
+			</tr>
+			<tr>
+				<td>Korok Shake</td>
+				<td>&#8226; Korok Mask</td>
+				<td>&#8226; mask shakes when a Korok is hiding nearby</td>
 			</tr>
 		</tbody>
 	</table>
-	<h2>Questions<a id="Questions"></a></h2>
-	<h4>Questions Under Investigation:<a id="Questions Under Investigation:"></a></h4>
+	<h2>Future Updates<a id="Future Updates"></a></h2>
+	<h4>Questions to Investigate:<a id="Questions to Investigate:"></a></h4>
 	<ul>
-		<li>How does Shock Resistance/Shock Damage Resist affect electric damage or lightning damage?</li>
-		<li>How does Electro Food interact with Shock Damage Resist?</li>
-		<li>How does Hasty Food interact with Swim/Climb/Night/Sand/Snow Speed Up?</li>
+		<li>How do &#x26A1;&#xFE0F;&nbsp; Shock Resistance and &#x26A1;&#xFE0F;&nbsp; Shock Damage Resist affect electric damage or lightning damage?</li>
+		<li>How does &#x26A1;&#xFE0F;&nbsp; Electro Food interact with &#x26A1;&#xFE0F;&nbsp; Shock Damage Resist? My guess is that they don't stack.</li>
+		<li>How does &#x2934;&#xFE0F;&nbsp; Hasty Food interact with ( &#x1F30A;&#xFE0F;&nbsp; Swim | &#x26F0;&#xFE0F;&nbsp; Climb | &#x2728;&#xFE0F;&nbsp; Night | &#x1F463;&#xFE0F;&nbsp; Sand | &#x1F463;&#xFE0F;&nbsp; Snow ) Speed Up? My guess is that they don't stack.</li>
 		<li>Does Stal Lure work with 1 Radiant Armor Piece? Does it stack with all 3?</li>
 	</ul>
+	<h4>Features for the Future<a id="Features for the Future"></a></h4>
+	<ul>
+		<li>List the price for buying each armor piece (if it can be bought in a shop)</li>
+		<li>List the price for selling each armor piece (which varies upon the level of upgrades)</li>
+	</ul>
 	<h2>About<a id="About"></a></h2>
-	<p>This version was last updated on May 16, 2017 using game version 1.1.2. Information was gathered from personal gameplay experience, GameFAQs boards, and reddit. Special thanks to the thread about damage multipliers and more by Drunken_Idiot, and the contributors within (FoxSlash, AtmaRagnarok9, among others). To contact author, email 3x3is9@gmail.com, either for clarification, inaccuracies, tips, or any other relevant information.</p>
+	<p>This guide was created on May 16, 2017 using game version 1.1.2. It was updated on Aug 26, 2017 to include DLC armor and all armor locations. Information was gathered from personal gameplay experience, GameFAQs boards, and reddit. Special thanks to the thread about damage multipliers and more by Drunken_Idiot, and the contributors within (FoxSlash, AtmaRagnarok9, among others). To contact author, email 3x3is9@gmail.com, either for clarification, inaccuracies, tips, or any other relevant information.</p>
 </div>
 
 

@@ -1,0 +1,42 @@
+foot 👣
+&#x1F463;&#xFE0F; 
+
+cold ❄️
+&#x2744;&#xFE0F; 
+
+heat ☀️
+&#x2600;&#xFE0F; 
+
+shock ⚡️
+&#x26A1;&#xFE0F; 
+
+flame 🔥
+&#x1F525;&#xFE0F; 
+
+wave 🌊
+&#x1F30A;&#xFE0F; 
+
+stealth ♒️
+&#x2652;&#xFE0F; 
+
+climb ⛰
+&#x26F0;&#xFE0F; 
+
+attack 🗡
+&#x1F5E1;&#xFE0F; 
+
+guardian 🌀
+&#x1F300;&#xFE0F; 
+
+set bonus ✨
+&#x2728;&#xFE0F; 
+
+mov't ⤴️
+&#x2934;&#xFE0F; 
+
+defense 👕
+&#x1F455;&#xFE0F; 
+
+lightning 🌩
+&#x1F329;&#xFE0F; 
+
